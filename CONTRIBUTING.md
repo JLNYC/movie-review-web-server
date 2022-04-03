@@ -9,7 +9,9 @@ To get an overview of the project, checkout our [README](./README.md). There are
 ### Feature Branches
 1. Before making any local changes, create a new **feature branch** based off of the `main` branch. More information [here](https://www.atlassian.com/git/tutorials/comparing-workflows/feature-branch-workflow).
 
-``` git checkout -b feature/add-home-navigation```
+    ```
+    git checkout -b feature/add-home-navigation 
+    ```
 
 
 2. Apply and commit changes to the newly created feature branch.
