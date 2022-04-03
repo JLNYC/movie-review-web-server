@@ -15,5 +15,6 @@ REST API Server that the android application - {untitled} - will communicate wit
 
 
 ### Documentation
-- [Routes](./docs)
-- [Data Models](./docs)
+- [Contributing](./CONTRIBUTING.md)
+- [Data Models](./docs/models.md)
+- [Routes](./docs/routes.md)
