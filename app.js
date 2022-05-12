@@ -9,11 +9,13 @@ const app = express();
 const movieRoutes = require("./routes/movie");
 const reviewRoutes = require("./routes/review");
 const userRoutes = require("./routes/user");
+const tmdbServiceRoutes = require("./routes/tmdbService");
 
 // Middlewares
 app.use(userRoutes);
 app.use(movieRoutes);
 app.use(reviewRoutes);
+app.use(tmdbServiceRoutes);
 
 // Server Start
 app.listen(3000, () => {
